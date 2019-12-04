@@ -1,9 +1,9 @@
 //
 //  HYVideoDetailRotateButton.h
-//  Vpings
+//  HYRotateButton
 //
-//  Created by study on 2017/7/18.
-//  Copyright © 2017年 朱玉Vpings. All rights reserved.
+//  Created by 徐保学 on 2019/12/4.
+//  Copyright © 2019 徐保学. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
