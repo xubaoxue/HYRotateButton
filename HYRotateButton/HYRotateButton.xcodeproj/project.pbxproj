@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AF454A323975A0000D09100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF454A223975A0000D09100 /* AppDelegate.m */; };
+		7AF454A623975A0000D09100 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF454A523975A0000D09100 /* SceneDelegate.m */; };
+		7AF454A923975A0000D09100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF454A823975A0000D09100 /* ViewController.m */; };
+		7AF454AC23975A0000D09100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF454AA23975A0000D09100 /* Main.storyboard */; };
+		7AF454AE23975A0100D09100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF454AD23975A0100D09100 /* Assets.xcassets */; };
+		7AF454B123975A0100D09100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AF454AF23975A0100D09100 /* LaunchScreen.storyboard */; };
+		7AF454B423975A0100D09100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF454B323975A0100D09100 /* main.m */; };
+		7AF454BE23975A0200D09100 /* HYRotateButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF454BD23975A0200D09100 /* HYRotateButtonTests.m */; };
+		7AF454C923975A0200D09100 /* HYRotateButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF454C823975A0200D09100 /* HYRotateButtonUITests.m */; };
+		7AF454D823975A1800D09100 /* HYVideoDetailRotateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF454D623975A1800D09100 /* HYVideoDetailRotateButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF454BA23975A0200D09100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF4549623975A0000D09100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF4549D23975A0000D09100;
+			remoteInfo = HYRotateButton;
+		};
+		7AF454C523975A0200D09100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF4549623975A0000D09100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF4549D23975A0000D09100;
+			remoteInfo = HYRotateButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AF4549E23975A0000D09100 /* HYRotateButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYRotateButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF454A123975A0000D09100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AF454A223975A0000D09100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AF454A423975A0000D09100 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7AF454A523975A0000D09100 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7AF454A723975A0000D09100 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AF454A823975A0000D09100 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AF454AB23975A0000D09100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AF454AD23975A0100D09100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AF454B023975A0100D09100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AF454B223975A0100D09100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF454B323975A0100D09100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AF454B923975A0200D09100 /* HYRotateButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYRotateButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF454BD23975A0200D09100 /* HYRotateButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYRotateButtonTests.m; sourceTree = "<group>"; };
+		7AF454BF23975A0200D09100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF454C423975A0200D09100 /* HYRotateButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYRotateButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF454C823975A0200D09100 /* HYRotateButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYRotateButtonUITests.m; sourceTree = "<group>"; };
+		7AF454CA23975A0200D09100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AF454D623975A1800D09100 /* HYVideoDetailRotateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYVideoDetailRotateButton.m; sourceTree = "<group>"; };
+		7AF454D723975A1800D09100 /* HYVideoDetailRotateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYVideoDetailRotateButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AF4549B23975A0000D09100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF454B623975A0200D09100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF454C123975A0200D09100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AF4549523975A0000D09100 = {
+			isa = PBXGroup;
+			children = (
+				7AF454A023975A0000D09100 /* HYRotateButton */,
+				7AF454BC23975A0200D09100 /* HYRotateButtonTests */,
+				7AF454C723975A0200D09100 /* HYRotateButtonUITests */,
+				7AF4549F23975A0000D09100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AF4549F23975A0000D09100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF4549E23975A0000D09100 /* HYRotateButton.app */,
+				7AF454B923975A0200D09100 /* HYRotateButtonTests.xctest */,
+				7AF454C423975A0200D09100 /* HYRotateButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AF454A023975A0000D09100 /* HYRotateButton */ = {
+			isa = PBXGroup;
+			children = (
+				7AF454D723975A1800D09100 /* HYVideoDetailRotateButton.h */,
+				7AF454D623975A1800D09100 /* HYVideoDetailRotateButton.m */,
+				7AF454A123975A0000D09100 /* AppDelegate.h */,
+				7AF454A223975A0000D09100 /* AppDelegate.m */,
+				7AF454A423975A0000D09100 /* SceneDelegate.h */,
+				7AF454A523975A0000D09100 /* SceneDelegate.m */,
+				7AF454A723975A0000D09100 /* ViewController.h */,
+				7AF454A823975A0000D09100 /* ViewController.m */,
+				7AF454AA23975A0000D09100 /* Main.storyboard */,
+				7AF454AD23975A0100D09100 /* Assets.xcassets */,
+				7AF454AF23975A0100D09100 /* LaunchScreen.storyboard */,
+				7AF454B223975A0100D09100 /* Info.plist */,
+				7AF454B323975A0100D09100 /* main.m */,
+			);
+			path = HYRotateButton;
+			sourceTree = "<group>";
+		};
+		7AF454BC23975A0200D09100 /* HYRotateButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF454BD23975A0200D09100 /* HYRotateButtonTests.m */,
+				7AF454BF23975A0200D09100 /* Info.plist */,
+			);
+			path = HYRotateButtonTests;
+			sourceTree = "<group>";
+		};
+		7AF454C723975A0200D09100 /* HYRotateButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AF454C823975A0200D09100 /* HYRotateButtonUITests.m */,
+				7AF454CA23975A0200D09100 /* Info.plist */,
+			);
+			path = HYRotateButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AF4549D23975A0000D09100 /* HYRotateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF454CD23975A0200D09100 /* Build configuration list for PBXNativeTarget "HYRotateButton" */;
+			buildPhases = (
+				7AF4549A23975A0000D09100 /* Sources */,
+				7AF4549B23975A0000D09100 /* Frameworks */,
+				7AF4549C23975A0000D09100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYRotateButton;
+			productName = HYRotateButton;
+			productReference = 7AF4549E23975A0000D09100 /* HYRotateButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AF454B823975A0200D09100 /* HYRotateButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF454D023975A0200D09100 /* Build configuration list for PBXNativeTarget "HYRotateButtonTests" */;
+			buildPhases = (
+				7AF454B523975A0200D09100 /* Sources */,
+				7AF454B623975A0200D09100 /* Frameworks */,
+				7AF454B723975A0200D09100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF454BB23975A0200D09100 /* PBXTargetDependency */,
+			);
+			name = HYRotateButtonTests;
+			productName = HYRotateButtonTests;
+			productReference = 7AF454B923975A0200D09100 /* HYRotateButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AF454C323975A0200D09100 /* HYRotateButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF454D323975A0200D09100 /* Build configuration list for PBXNativeTarget "HYRotateButtonUITests" */;
+			buildPhases = (
+				7AF454C023975A0200D09100 /* Sources */,
+				7AF454C123975A0200D09100 /* Frameworks */,
+				7AF454C223975A0200D09100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF454C623975A0200D09100 /* PBXTargetDependency */,
+			);
+			name = HYRotateButtonUITests;
+			productName = HYRotateButtonUITests;
+			productReference = 7AF454C423975A0200D09100 /* HYRotateButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AF4549623975A0000D09100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "徐保学";
+				TargetAttributes = {
+					7AF4549D23975A0000D09100 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					7AF454B823975A0200D09100 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7AF4549D23975A0000D09100;
+					};
+					7AF454C323975A0200D09100 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7AF4549D23975A0000D09100;
+					};
+				};
+			};
+			buildConfigurationList = 7AF4549923975A0000D09100 /* Build configuration list for PBXProject "HYRotateButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AF4549523975A0000D09100;
+			productRefGroup = 7AF4549F23975A0000D09100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AF4549D23975A0000D09100 /* HYRotateButton */,
+				7AF454B823975A0200D09100 /* HYRotateButtonTests */,
+				7AF454C323975A0200D09100 /* HYRotateButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AF4549C23975A0000D09100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF454B123975A0100D09100 /* LaunchScreen.storyboard in Resources */,
+				7AF454AE23975A0100D09100 /* Assets.xcassets in Resources */,
+				7AF454AC23975A0000D09100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF454B723975A0200D09100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF454C223975A0200D09100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AF4549A23975A0000D09100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF454A923975A0000D09100 /* ViewController.m in Sources */,
+				7AF454A323975A0000D09100 /* AppDelegate.m in Sources */,
+				7AF454B423975A0100D09100 /* main.m in Sources */,
+				7AF454A623975A0000D09100 /* SceneDelegate.m in Sources */,
+				7AF454D823975A1800D09100 /* HYVideoDetailRotateButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF454B523975A0200D09100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF454BE23975A0200D09100 /* HYRotateButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF454C023975A0200D09100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF454C923975A0200D09100 /* HYRotateButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF454BB23975A0200D09100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF4549D23975A0000D09100 /* HYRotateButton */;
+			targetProxy = 7AF454BA23975A0200D09100 /* PBXContainerItemProxy */;
+		};
+		7AF454C623975A0200D09100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AF4549D23975A0000D09100 /* HYRotateButton */;
+			targetProxy = 7AF454C523975A0200D09100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AF454AA23975A0000D09100 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF454AB23975A0000D09100 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AF454AF23975A0100D09100 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AF454B023975A0100D09100 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AF454CB23975A0200D09100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AF454CC23975A0200D09100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AF454CE23975A0200D09100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHUXDF54NU;
+				INFOPLIST_FILE = HYRotateButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = text.com.com.HYRotateButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AF454CF23975A0200D09100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHUXDF54NU;
+				INFOPLIST_FILE = HYRotateButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = text.com.com.HYRotateButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AF454D123975A0200D09100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHUXDF54NU;
+				INFOPLIST_FILE = HYRotateButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = text.com.com.HYRotateButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYRotateButton.app/HYRotateButton";
+			};
+			name = Debug;
+		};
+		7AF454D223975A0200D09100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHUXDF54NU;
+				INFOPLIST_FILE = HYRotateButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = text.com.com.HYRotateButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYRotateButton.app/HYRotateButton";
+			};
+			name = Release;
+		};
+		7AF454D423975A0200D09100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHUXDF54NU;
+				INFOPLIST_FILE = HYRotateButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = text.com.com.HYRotateButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYRotateButton;
+			};
+			name = Debug;
+		};
+		7AF454D523975A0200D09100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHUXDF54NU;
+				INFOPLIST_FILE = HYRotateButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = text.com.com.HYRotateButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYRotateButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AF4549923975A0000D09100 /* Build configuration list for PBXProject "HYRotateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF454CB23975A0200D09100 /* Debug */,
+				7AF454CC23975A0200D09100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF454CD23975A0200D09100 /* Build configuration list for PBXNativeTarget "HYRotateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF454CE23975A0200D09100 /* Debug */,
+				7AF454CF23975A0200D09100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF454D023975A0200D09100 /* Build configuration list for PBXNativeTarget "HYRotateButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF454D123975A0200D09100 /* Debug */,
+				7AF454D223975A0200D09100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF454D323975A0200D09100 /* Build configuration list for PBXNativeTarget "HYRotateButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF454D423975A0200D09100 /* Debug */,
+				7AF454D523975A0200D09100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AF4549623975A0000D09100 /* Project object */;
+}
